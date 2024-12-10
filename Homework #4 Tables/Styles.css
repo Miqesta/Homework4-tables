@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #611ECB;
+    font-weight: 400;
+    size: 13px;
+    line-height: 19px;
+}
+div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    border-radius:20px;
+    overflow: hidden;
+    width: 60%;
+    height: 50%;
+}
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+th {
+    border-top: 1px solid #ccc;
+}
+tr{
+    transition: 0.2s ease-in-out;
+}
+td, th {
+    padding: 10px;
+    text-align: left; 
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc; 
+}
+
+tr,th{
+    padding: 10px;
+    margin: 10px;
+}
+th input[type="checkbox"] {
+    margin-right: 10px; 
+}
+img{
+    transition: 0.2s ease-in-out;
+
+}
+img:hover{
+    transform: scale(1.5);
+
+}
+tr:hover{
+    background-color: #611ECB;
+}
+.Thead-Name{
+    background-color: #F5F5F5 !important;
+}
